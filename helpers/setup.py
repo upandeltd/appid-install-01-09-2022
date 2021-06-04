@@ -31,7 +31,7 @@ class Setup:
 
             # clone project
             git_command = [
-                'git', 'clone', 'https://github.com/simatei/kobo-docker-1',
+                'git', 'clone', 'https://github.com/simatei/appid-docker',
                 dict_['kobodocker_path']
             ]
             CLI.run_command(git_command, cwd=os.path.dirname(
