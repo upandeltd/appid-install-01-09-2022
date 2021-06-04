@@ -30,7 +30,7 @@ class Config(metaclass=Singleton):
     DEFAULT_PROXY_PORT = '8080'
     DEFAULT_NGINX_PORT = '80'
     DEFAULT_NGINX_HTTPS_PORT = '443'
-    KOBO_DOCKER_BRANCH = '2.021.21a'
+    KOBO_DOCKER_BRANCH = 'appid-2.021.21a'
     KOBO_INSTALL_VERSION = '4.4.4'
     MAXIMUM_AWS_CREDENTIAL_ATTEMPTS = 3
 
@@ -689,7 +689,7 @@ class Config(metaclass=Singleton):
             if not os.path.isdir(os.path.join(full_repo_path, '.git')):
                 git_command = [
                     'git', 'clone',
-                    'https://github.com/kobotoolbox/{}'.format(repo_name),
+                    'https://github.com/simatei/{}'.format(repo_name),
                     full_repo_path
                 ]
 
