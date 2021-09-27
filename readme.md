@@ -1,4 +1,4 @@
-The purpose of the script is to install `KoBoToolbox` in minutes without messing with configuration files.
+The purpose of the script is to install `APPID` in minutes without messing with configuration files.
 It prompts the user to answer some questions to create configuration files automatically and to start docker containers based on [`kobo-docker`](https://github.com/kobotoolbox/kobo-docker "").
 
 ## Important notice when upgrading from any release older than [`2.020.18`](https://github.com/kobotoolbox/kobo-install/releases/tag/2.020.18)
